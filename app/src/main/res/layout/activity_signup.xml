@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingBottom="100dp"
+    tools:context="com.showmethemoney.sejong.showmethemoney.signup.view.SignupActivity">
+
+    <TextView
+        android:text="회원가입"
+        android:textSize="50dp"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/sign_up_id"
+        android:hint="학번"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/sign_up_passward"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/sign_up_passward_confirm"
+        android:hint="비밀번호 확인"
+        android:inputType="textPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/sign_up_major"
+        android:hint="전공"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/sign_up_name"
+        android:hint="이름"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/sign_up_request_button"
+        android:text="회원가입 하기"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
